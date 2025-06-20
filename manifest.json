@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "Unbreakable Attentiveness Monitor",
+  "version": "15.0",
+  "description": "The definitive, crash-free version. Tracks all participants and generates reports reliably.",
+  "permissions": ["activeTab", "scripting", "storage"],
+  "host_permissions": ["*://meet.google.com/*", "http://127.0.0.1:5000/*"],
+  "action": { "default_popup": "popup.html", "default_icon": "icons/icon.png" },
+  "content_scripts": [{"matches": ["*://meet.google.com/*"], "js": ["content.js"]}],
+  "icons": { "48": "icons/icon.png", "128": "icons/icon.png" }
+}

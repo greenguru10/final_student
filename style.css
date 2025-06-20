@@ -1,0 +1,24 @@
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; width: 320px; margin: 0; background: #f8f9fa; color: #343a40; }
+.header { display: flex; align-items: center; padding: 15px; background-color: #343a40; color: white; }
+.header svg { width: 24px; height: 24px; margin-right: 10px; }
+.header h3 { margin: 0; font-size: 16px; font-weight: 600; }
+#status { padding: 12px; margin: 15px; border-radius: 8px; font-weight: 600; transition: all 0.3s ease; }
+.status-idle { background-color: #6c757d; color: white; }
+.status-running { background-color: #28a745; color: white; }
+.status-stopped { background-color: #ffc107; color: #212529; }
+.status-generating { background-color: #0d6efd; color: white; }
+.status-error { background-color: #dc3545; color: white; }
+.button-group { display: flex; justify-content: space-between; padding: 0 15px; }
+button { display: flex; align-items: center; justify-content: center; border: none; border-radius: 8px; padding: 12px; font-size: 14px; font-weight: 600; cursor: pointer; transition: all 0.2s ease-in-out; width: 100%; }
+button svg { width: 18px; height: 18px; margin-right: 8px; fill: currentColor; }
+.button-group button { width: 48%; }
+#startBtn { background-color: #28a745; color: white; }
+#startBtn:hover { background-color: #218838; }
+#stopBtn { background-color: #6c757d; color: white; }
+#stopBtn:hover { background-color: #5a6268; }
+.end-session-btn { margin: 15px; width: calc(100% - 30px); background-color: #dc3545; color: white; }
+.end-session-btn:hover { background-color: #c82333; }
+#download-links { padding: 0 15px 15px 15px; text-align: left; }
+#download-links h4 { margin: 10px 0; border-top: 1px solid #dee2e6; padding-top: 15px; }
+#download-links a { display: block; padding: 8px; margin-bottom: 5px; background-color: #e9ecef; border-radius: 5px; text-decoration: none; color: #0d6efd; font-weight: 500; }
+#download-links a:hover { background-color: #dee2e6; }
