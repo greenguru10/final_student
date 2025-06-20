@@ -1,0 +1,8 @@
+Flask
+Flask-Cors
+numpy
+opencv-python-headless
+mediapipe
+pandas
+matplotlib
+seaborn
